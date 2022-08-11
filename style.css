@@ -1,0 +1,125 @@
+header,
+.containerForm {
+  display: flex;
+  justify-content: center;
+}
+
+.headerList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: rgb(216, 216, 216);
+  width: 100%;
+  position: fixed;
+}
+
+.headerList li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.headerList li:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(175, 175, 175);
+}
+
+body {
+  background-image: url("src/img/background-wood.jpg");
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.container,
+.containerBody p {
+  display: flex;
+  justify-content: center;
+}
+
+.containerBody p {
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+.containerBody table p {
+  font-family: "Grape Nuts";
+  font-size: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.products:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+table {
+  display: grid;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.containerTitle {
+  padding: 20px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 7px;
+}
+
+.containerForm {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgb(175, 175, 175);
+  padding: 30px;
+  width: 100%;
+}
+
+.containerTitle p {
+  border-top: 1px solid #000;
+}
+
+table {
+  padding-top: 20px;
+}
+
+table tr td {
+  justify-content: center;
+  padding: 10px;
+}
+
+table tr td img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.socialMedias {
+  display: flex;
+}
+
+.socialMedias img {
+  width: 40px;
+  padding: 5px;
+transition: 0.5s;
+}
+
+.socialMedias img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
