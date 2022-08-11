@@ -10,6 +10,7 @@ Como não entende muito de internet , a empresa contratou um freelancer que ter�
 
 Desta forma, foi solicitado ao programador desenvolver o site, a princípio, expondo os produtos em pequenas miniaturas, de forma simples, com uma formatação coerente. Além disso, será necessário criar um formulário para que as empresas possam cadastrar seus e-mails a fim de receber promoções de produtos.
 
+https://joaoacastro.github.io/atividade_ads_Luz_Ing-/
 <img with="400em" src="./src/img/prtscr.png">
 
 You can check out other projects I've developed here on my GitHub, or contact me through the other links.
